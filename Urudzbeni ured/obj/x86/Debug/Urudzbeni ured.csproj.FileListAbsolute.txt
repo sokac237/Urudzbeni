@@ -1,0 +1,55 @@
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\bin\Debug\Urudzbeni ured.exe
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\bin\Debug\Urudzbeni ured.pdb
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\bin\Debug\FileHelpers.dll
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmCSV.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.Properties.Resources.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni ured.exe.licenses
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni ured.exe
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni ured.pdb
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmPoruka.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmMain.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmLogin.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmUnosPoste.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\bin\Debug\Urudzbeni ured.exe.config
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmSifarnikPoslovnica.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmVrstaTroska.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmAzurirajFirmu.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmSifarnikFirme.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmVrstaPoste.resources
+C:\Users\IvanS\Documents\Visual Studio 2010\Projects\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmAzurirajVrstuPoste.resources
+H:\Urudzbeni ured\Urudzbeni ured\bin\Debug\Urudzbeni ured.exe.config
+H:\Urudzbeni ured\Urudzbeni ured\bin\Debug\Urudzbeni ured.exe
+H:\Urudzbeni ured\Urudzbeni ured\bin\Debug\Urudzbeni ured.pdb
+H:\Urudzbeni ured\Urudzbeni ured\bin\Debug\FastReport.MySQL.dll
+H:\Urudzbeni ured\Urudzbeni ured\bin\Debug\FileHelpers.dll
+H:\Urudzbeni ured\Urudzbeni ured\bin\Debug\SX.dll
+H:\Urudzbeni ured\Urudzbeni ured\bin\Debug\FastReport.MySQL.pdb
+H:\Urudzbeni ured\Urudzbeni ured\bin\Debug\SX.xml
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmAzurirajFirmu.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmAzurirajVrstuPoste.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmCSV.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmIspisEvidBroj.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmLogin.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmMain.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmPoruka.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmPredajaPoste.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmPredajaDirektoru.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.Properties.Resources.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmSifarnikFirme.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmSifarnikPoslovnica.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmSlanjeNaKnjizenjeIspis.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmSlanjeNaKnjizenje.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmStatusPoste.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmStorno.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmUnosPoste.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmVracenoOdDirektora.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmVracenoSPotpisa.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmVrstaPoste.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni_ured.frmVrstaTroska.resources
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni ured.csproj.GenerateResource.Cache
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni ured.exe.licenses
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni ured.exe
+H:\Urudzbeni ured\Urudzbeni ured\obj\x86\Debug\Urudzbeni ured.pdb

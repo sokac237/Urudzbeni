@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="04/13/2012 10:31:05" ReportInfo.Modified="05/15/2012 12:29:56" ReportInfo.CreatorVersion="1.4.19.0">
+  <Dictionary>
+    <TableDataSource Name="Artikli" ReferenceName="Data.Artikli" DataType="System.Int32" Enabled="true">
+      <Column Name="posta_evidBroj" DataType="System.Int32"/>
+      <Column Name="PA_NAZIV" DataType="System.String"/>
+      <Column Name="posta_brojDokumenta" DataType="System.String"/>
+      <Column Name="concat( boso2011_operater_op_ime ,' ',  boso2011_operater_op_prezime)" DataType="System.String"/>
+      <Column Name="posta_datVraceno" DataType="System.DateTime"/>
+      <Column Name="posta_ID" DataType="System.Int32"/>
+      <Column Name="posta_datDokumenta" DataType="System.DateTime"/>
+      <Column Name="DatumDok" Enabled="false" DataType="System.String" PropName="Column" Calculated="true" Expression="ToString([Artikli.posta_datDokumenta])"/>
+      <Column Name="posta_datumPredaje" DataType="System.DateTime"/>
+      <Column Name="vp_naziv" DataType="System.String"/>
+      <Column Name="posta_datum" DataType="System.DateTime"/>
+      <Column Name="posta_datPredanoKnjizenje" DataType="System.DateTime"/>
+      <Column Name="posta_napomena" DataType="System.String"/>
+      <Column Name="posta_datumPredajaDirektor" DataType="System.DateTime"/>
+      <Column Name="posta_datumVracenoDirektor" DataType="System.DateTime"/>
+    </TableDataSource>
+    <Parameter Name="datumod" DataType="System.String"/>
+    <Parameter Name="datumdo" DataType="System.String"/>
+    <Parameter Name="partner" DataType="System.String"/>
+    <Parameter Name="evidBroj" DataType="System.String"/>
+    <Parameter Name="vrstaTroska" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15">
+    <ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="189">
+      <TableObject Name="Table1" Left="37.8" Top="18.9" Width="198.45" Height="75.6">
+        <TableColumn Name="Column1" Width="198.45"/>
+        <TableRow Name="Row1">
+          <TableCell Name="Cell1" Text="BOSO d.o.o.	&#13;&#10;	&#13;&#10;" Font="Arial, 12pt, style=Bold"/>
+        </TableRow>
+        <TableRow Name="Row2">
+          <TableCell Name="Cell6" Text="URUDŽBENI URED	&#13;&#10;"/>
+        </TableRow>
+        <TableRow Name="Row3">
+          <TableCell Name="Cell11" Text="032/341-290	&#13;&#10;"/>
+        </TableRow>
+        <TableRow Name="Row4">
+          <TableCell Name="Cell16" Text="urudzbeni@boso.hr"/>
+        </TableRow>
+      </TableObject>
+      <TextObject Name="Text1" Left="822.15" Top="18.9" Width="207.9" Height="18.9" Text="Ispisano:  [Date]"/>
+      <TextObject Name="Text2" Left="359.1" Top="85.05" Width="340.2" Height="28.35" Text="Status pošte&#13;&#10;" HorzAlign="Center" Font="Arial, 15.75pt, style=Bold"/>
+      <TextObject Name="Text17" Left="28.35" Top="122.85" Width="1001.7" Height="18.9" Text="[IIf([datumod] == null,&quot;&quot;,&quot;Za razdoblje od: &quot;+ [datumod] + &quot; do: &quot; +[datumdo])]"/>
+      <TextObject Name="Text18" Left="28.35" Top="141.75" Width="1001.7" Height="18.9" Text="[IIf( [partner] == null,&quot;&quot;,&quot;Partner: &quot; +[partner])]"/>
+      <TextObject Name="Text19" Left="28.35" Top="160.65" Width="453.6" Height="18.9" Text="[IIf( [vrstaTroska] == null,&quot;&quot;,&quot;Vrsta troška: &quot; +[vrstaTroska])]"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="193" Width="1047.06" Height="33.9" Border.Lines="Bottom" Border.BottomLine.Style="Double" Fill.Color="Gainsboro">
+      <TextObject Name="Text5" Left="2" Top="3" Width="53.15" Height="27.9" Fill.Color="Gainsboro" Text="Evid. broj" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text6" Left="52.75" Top="11.05" Width="206.8" Height="18.9" Fill.Color="Gainsboro" Text="Partner &#13;&#10;" HorzAlign="Center" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text7" Left="261.1" Top="2.6" Width="93.4" Height="29.9" Fill.Color="Gainsboro" Text="Broj dokumenta&#13;&#10;" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text8" Left="354.3" Top="2.6" Width="81.4" Height="29.9" Fill.Color="Gainsboro" Text="Datum unosa&#13;&#10;&#13;&#10;" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text20" Left="435.9" Top="2.15" Width="78.85" Height="29.9" Fill.Color="Gainsboro" Text="Predano na potpis&#13;&#10;&#13;&#10;" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text21" Left="515.95" Top="2.15" Width="170.45" Height="29.9" Fill.Color="Gainsboro" Text="Osobi na potpis&#13;&#10;" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text22" Left="684.7" Top="2.15" Width="85.3" Height="29.9" Fill.Color="Gainsboro" Text="Vraćeno s potpisa&#13;&#10;" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text23" Left="949.2" Top="2.15" Width="93.4" Height="29.9" Fill.Color="Gainsboro" Text="Predano na knjiženje&#13;&#10;" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text25" Left="768.55" Top="2.1" Width="86.3" Height="29.9" Fill.Color="Gainsboro" Text="Poslano direktoru" Font="Arial, 9.75pt, style=Bold"/>
+      <TextObject Name="Text26" Left="855.5" Top="2" Width="92.4" Height="29.9" Fill.Color="Gainsboro" Text="Vraćeno od direktora&#13;&#10;" Font="Arial, 9.75pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="230.9" Width="1047.06" Height="22.35" CanGrow="true" DataSource="Artikli">
+      <TextObject Name="Text10" Left="1" Top="3" Width="50.8" Height="18.9" Text="[Artikli.posta_evidBroj]" Font="Arial, 9pt"/>
+      <TextObject Name="Text11" Left="53.1" Top="2.45" Width="206.3" Height="19.9" CanGrow="true" CanShrink="true" GrowToBottom="true" Text="[Artikli.PA_NAZIV]" Font="Arial, 9pt"/>
+      <TextObject Name="Text12" Left="260.4" Top="2" Width="94.5" Height="19.9" CanGrow="true" CanShrink="true" GrowToBottom="true" Text="[Artikli.posta_brojDokumenta]" Font="Arial, 9pt"/>
+      <TextObject Name="Text3" Left="354.7" Top="1.45" Width="81.5" Height="18.9" Text="[Artikli.posta_datum]" HideZeros="true" Format="Date" Format.Format="d" Font="Arial, 9pt"/>
+      <TextObject Name="Text4" Left="436.5" Top="2" Width="78.5" Height="18.9" Text="[Artikli.posta_datumPredaje]" HideZeros="true" Format="Date" Format.Format="d" Font="Arial, 9pt"/>
+      <TextObject Name="Text9" Left="512.8" Top="1" Width="172.5" Height="19.9" CanGrow="true" CanShrink="true" GrowToBottom="true" Text="[Artikli.concat( boso2011_operater_op_ime ,' ',  boso2011_operater_op_prezime)]" Font="Arial, 9pt"/>
+      <TextObject Name="Text13" Left="684" Top="1.45" Width="79.5" Height="18.9" Text="[Artikli.posta_datVraceno]" HideZeros="true" Format="Date" Format.Format="d" Font="Arial, 9pt"/>
+      <TextObject Name="Text15" Left="953.85" Top="2" Width="87.5" Height="18.9" Text="[Artikli.posta_datPredanoKnjizenje]" HideZeros="true" Format="Date" Format.Format="d" Font="Arial, 9pt"/>
+      <TextObject Name="Text27" Left="765.9" Top="2.45" Width="91.5" Height="18.9" Text="[Artikli.posta_datumPredajaDirektor]" HideZeros="true" Format="Date" Format.Format="d" Font="Arial, 9pt"/>
+      <TextObject Name="Text28" Left="856.95" Top="1.45" Width="94.5" Height="18.9" Text="[Artikli.posta_datumVracenoDirektor]" HideZeros="true" Format="Date" Format.Format="d" Font="Arial, 9pt"/>
+      <DataBand Name="Data2" Top="257.25" Width="1047.06" Height="21.6" Border.Lines="Bottom" Border.BottomLine.Style="DashDot">
+        <TextObject Name="Text16" Left="167.1" Top="0.45" Width="796.45" Height="20.9" CanGrow="true" CanShrink="true" GrowToBottom="true" Text="[Artikli.posta_napomena]" Font="Arial, 8.25pt"/>
+        <TextObject Name="Text24" Left="61.3" Top="1.15" Width="104.95" Height="20.45" Text="Napomena:&#13;&#10;" Font="Arial, 9.75pt"/>
+      </DataBand>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="282.85" Width="1047.06" Height="113.4">
+      <TextObject Name="Text14" Left="945" Top="85.05" Width="94.5" Height="18.9" Text="[PageN]" HorzAlign="Center"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>
